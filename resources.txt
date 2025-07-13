@@ -21,6 +21,16 @@ pip install название библиотеки
 Для проверки установлена ли библиотека и какая у нее версия используйте в командной строке или терминале:
 pip list
 
+Нужно создать таблицу c колонаками:
+(название колонки - ее тип)
+id - integer Primary key = True
+time - character varying
+year - integer
+month - integer
+day - integer
+event - character varying
+for_who - character varying
+
 В файле data_name.py нужно подставить свои значения в переменные.
 tg_token - токен вашего тг бота(его можно запросить у @BotFather)
 table_name - название вашей таблицы sql базы данных
