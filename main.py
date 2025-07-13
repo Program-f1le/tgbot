@@ -91,7 +91,6 @@ async def week(message):
         await message.answer(f'События на неделю:\n{'\n'.join(res)}.')
 
 async def timer_(message):
-    print(1)
     user = message.from_user.id
     day = datetime.now().day
     year = datetime.now().year
